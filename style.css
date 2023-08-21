@@ -1,3 +1,4 @@
+/* Common styles */
 body {
     margin: 0px;
     font-family: 'Outfit','Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
@@ -6,3 +7,101 @@ body {
 p {
     font-size: 1.2rem;
 }
+
+/* header */
+#logo-cues-container {
+    background-color: #0084FF;
+    text-align: center;
+}
+
+#logo-cues-container img {
+    width: 10%;
+    color: white;
+
+}
+
+/* article */
+article{
+    width: 88%;
+    margin: auto auto;
+}
+table{
+    width: 100%;
+    max-width: 600px;
+    margin: auto auto;
+    margin-bottom: 10px;
+}
+.pay-history{
+    text-align: center;
+    color: #0084FF;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+.image-container{
+    width: 20%;
+}
+.name-date{
+    width: 64%;
+}
+.name{
+    margin-top: -1.6rem;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.date{
+    color: grey;
+}
+.amount{
+    margin-top: -2rem;
+    font-weight: 600;
+}
+#profile-pic-container {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+#profile-pic-container img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+/* new css */
+/* .parent-div{
+    display: inline-block;
+    width: 100%;
+
+}
+#profile-pic-container_hi{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-right: 10px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#profile-pic-container_hi img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+.div2{
+    width: 50%;
+    display: inline-block;
+    border: 2px solid red;
+    height: 100%;
+
+}
+.div2 p{
+    margin: 0;
+}
+.div3{
+    display: inline-block;
+    border: 2px solid red;
+}
+.div3 p{
+    margin: 0;
+} */
