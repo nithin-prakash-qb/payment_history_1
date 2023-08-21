@@ -1,3 +1,4 @@
+/* common styles */
 body {
     margin: 0px;
     font-family: 'Outfit','Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
@@ -6,3 +7,81 @@ body {
 p {
     font-size: 1.2rem;
 }
+.center{
+    text-align: center;
+}
+.end{
+    text-align: end;
+}
+/* header */
+#logo-cues-container {
+    background-color: #0084FF;
+    text-align: center;
+}
+
+#logo-cues-container img {
+    width: 10%;
+    color: white;
+}
+/* artice */
+h1{
+    margin-top:4rem ;
+    margin-bottom:3rem;
+    color:#0084FF;
+    text-align: center;
+}
+#profile-pic-container {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+#profile-pic-container img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+.amount{
+    font-size: 6rem;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+.grey-para{
+    color:#767676;
+    font-weight: 800;
+}
+
+.remove-margin{
+    margin: 2px;
+}
+.tick-container{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-top: 3rem;
+}
+.tick-container img{
+    width: 100%;
+    height: 100%;
+}
+.completed{
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+/* footer */
+hr{
+    color: grey;
+    opacity: 0.3;
+}
+table{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    width: 70%;
+    max-width: 500px;
+    border-spacing: 1.2rem;
+    color: #767676;
+    font-weight:800 ;
+}
+
