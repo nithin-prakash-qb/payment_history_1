@@ -30,6 +30,7 @@ table{
     max-width: 600px;
     margin: auto auto;
     margin-bottom: 10px;
+    border-spacing:0 1.8rem;
 }
 .pay-history{
     text-align: center;
@@ -66,42 +67,5 @@ table{
     border-radius: 100%;
     width: 100%;
     height: 100%;
+}
 
-}
-/* new css */
-/* .parent-div{
-    display: inline-block;
-    width: 100%;
-
-}
-#profile-pic-container_hi{
-    width: 70px;
-    height: 70px;
-    margin: auto;
-    margin-right: 10px;
-    display: inline-block;
-    border: 2px solid black;
-}
-#profile-pic-container_hi img {
-    border-radius: 100%;
-    width: 100%;
-    height: 100%;
-
-}
-.div2{
-    width: 50%;
-    display: inline-block;
-    border: 2px solid red;
-    height: 100%;
-
-}
-.div2 p{
-    margin: 0;
-}
-.div3{
-    display: inline-block;
-    border: 2px solid red;
-}
-.div3 p{
-    margin: 0;
-} */
