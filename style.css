@@ -3,6 +3,38 @@ body {
     font-family: 'Outfit','Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
 }
 
-p {
+article{
+    width: 80%;
+    margin: auto;
+    padding: 6rem 0 6rem 0;
+}
+/* p {
     font-size: 1.2rem;
+} */
+.image-container{
+    text-align: center;
+    padding: 0rem 0 2rem 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 5rem;
+    line-height: 2rem;
+    font-size: 22px;
+}
+.go-to-profile-container{
+    text-align: center;
+}
+.go-to-profile{
+    color: #0084FF;
+    /* color: #1A68FA; */
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+ /* Responsiveness */
+@media only screen and (max-width: 426px) {
+  img{
+    width: 71%;
+  }
+
 }
