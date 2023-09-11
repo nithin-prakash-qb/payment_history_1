@@ -1,8 +1,146 @@
 body {
     margin: 0px;
-    font-family: 'Outfit','Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-family: 'Outfit', 'Google Sans', Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 22px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* header */
+#logo-cues-container {
+    background-color: #1A68FA;
+    text-align: center;
+}
+
+#logo-cues-container img {
+    width: 10%;
+    color: white;
+}
+
+/* article */
+article {
+    padding: 3.4rem 0 2.2rem 0;
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #0084FF;
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.click-here {
+    text-decoration: underline;
+    color: #1076f1;
+    margin: 0 5px;
+}
+
+#pin {
+    background-color: #f2f2f2;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 2rem 3rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f2f2f2;
+}
+
+#footer-container {
+    padding: 2rem 4rem;
+}
+
+#download {
+    font-size: 2rem;
+    margin-top: 0px;
+    line-height: 30px;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#app-play-container {
+    text-align: center;
+}
+
+#app-play-container a {
+    width: 10rem;
+    display: inline-block;
+}
+
+#apple_anchor {
+    margin-right: 10px;
+}
+
+#app-play-container img {
+    width: 100%
+}
+
+.or {
+    margin: 0 1rem;
+}
+
+#unsubscribe {
+    color: #1076f1;
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 720px) {
+    #logo-cues-container img {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #logo-cues-container img {
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #pin {
+        padding: 1.3rem 3rem;
+        font-size: 1.4rem;
+    }
+
+    .article-para {
+        width: 80%;
+        margin: auto;
+    }
+
+    .alternate-link {
+        padding-bottom: 1.8rem;
+    }
+
+    #download {
+        font-size: 1.6rem;
+    }
+
+    .do-not-reply {
+        font-size: 15px;
+    }
+
+    #footer-container {
+        padding: 2rem 2rem;
+    }
 }
