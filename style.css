@@ -1,8 +1,215 @@
+
+/* Common Styles  */
+h1 {
+    color: #0084FF;
+    background-color: #EFF4FC;
+}
+
 body {
     margin: 0px;
     font-family: 'Outfit','Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+
 }
 
-p {
+p,
+td {
+    color: grey;
     font-size: 1.2rem;
 }
+
+/* Header Styling */
+#logo-cues-container {
+    background-color: #0084FF;
+    text-align: center;
+}
+
+#logo-cues-container img {
+    width: 10%;
+    color: white;
+
+}
+
+/* #pic-content-container {
+    margin: -6rem 0 3rem 0;
+}
+
+#profile-pic-container {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+
+#profile-pic-container img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+
+#heading-container {
+    text-align: center;
+    padding: 1rem 2rem 6rem 2rem;
+    background-color: #EFF4FC;
+}
+
+#heading-container h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+#heading-content-container h2 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+#heading-content-container p {
+    margin: 5px 1px;
+    font-size: 1.063rem;
+    color: grey;
+    text-align: center;
+} */
+
+/* Article Styling */
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 1.6rem;
+}
+
+td {
+    font-size: 1.063rem;
+}
+
+th {
+    background-color: #EFF4FC;
+    text-align: left;
+    font-size: 1.2rem;
+
+}
+
+.amount {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
+#second_last_row {
+    background-color: #EFF4FC;
+}
+
+#second_last_row td {
+    color: black;
+}
+
+#last_row {
+    background-color: #0084FF;
+    color: white;
+}
+
+#last_row td {
+    color: white;
+}
+
+#second_last_row,
+#last_row {
+    font-weight: bold;
+}
+
+article div p {
+    text-align: center;
+}
+
+/* #article-bottom-container {
+    padding: 1.5rem 0;
+}
+
+#confirmation-container {
+    padding: 1rem;
+}
+
+#receipt-container {
+    padding: 1rem 1rem 1.9rem 1rem;
+}
+
+#confirmation-container p,
+#receipt-container p {
+    margin: 4px;
+    font-size: 1.2rem;
+}
+
+#sent-receipts {
+    color: #0084FF;
+} */
+
+/* Footer Styling */
+footer {
+    background-color: #10214A;
+}
+
+#footer-container {
+    padding: 2rem 4rem;
+}
+
+#download {
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#app-play-container {
+    text-align: center;
+}
+
+#app-play-container a {
+    width: 10rem;
+    display: inline-block;
+}
+
+#apple_anchor {
+    margin-right: 10px;
+}
+
+#app-play-container img {
+    width: 100%
+}
+
+hr {
+    height: 1px;
+    background-color: #EFF4FC;
+    border: none;
+    margin: 2rem 0;
+}
+
+span {
+    margin: 0 1rem;
+}
+
+#unsubscribe {
+    color: #1076f1;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+    #about-cues {
+        text-align: start;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #app-play-container a {
+        width: 7rem;
+        display: inline-block;
+    }
+
+}
+
