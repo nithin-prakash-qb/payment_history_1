@@ -14,7 +14,7 @@ body {
 p,
 td {
     color: grey;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 /* Header Styling */
@@ -24,54 +24,16 @@ td {
 }
 
 #logo-cues-container img {
-    width: 10%;
+    width: 12%;
     color: white;
 
 }
 
-/* #pic-content-container {
-    margin: -6rem 0 3rem 0;
-}
-
-#profile-pic-container {
-    width: 180px;
-    height: 180px;
-    margin: auto;
-}
-
-#profile-pic-container img {
-    border-radius: 100%;
-    width: 100%;
-    height: 100%;
-
-}
-
-#heading-container {
-    text-align: center;
-    padding: 1rem 2rem 6rem 2rem;
-    background-color: #EFF4FC;
-}
-
-#heading-container h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-
-
-#heading-content-container h2 {
-    text-align: center;
-    font-size: 2.2rem;
-}
-
-#heading-content-container p {
-    margin: 5px 1px;
-    font-size: 1.063rem;
-    color: grey;
-    text-align: center;
-} */
 
 /* Article Styling */
+article{
+    overflow: auto;
+}
 table {
     width: 100%;
 }
@@ -82,13 +44,15 @@ td {
 }
 
 td {
-    font-size: 1.063rem;
+    font-size: 1.3rem;
+    text-align: center;
+
 }
 
 th {
     background-color: #EFF4FC;
-    text-align: left;
-    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1.3rem;
 
 }
 
@@ -96,55 +60,37 @@ th {
     font-weight: bold;
     font-size: 1.2rem;
     color: black;
-}
-
-#second_last_row {
-    background-color: #EFF4FC;
-}
-
-#second_last_row td {
-    color: black;
-}
-
-#last_row {
-    background-color: #0084FF;
-    color: white;
-}
-
-#last_row td {
-    color: white;
-}
-
-#second_last_row,
-#last_row {
-    font-weight: bold;
+    
 }
 
 article div p {
     text-align: center;
 }
-
-/* #article-bottom-container {
-    padding: 1.5rem 0;
+.postive{
+    color: green;
+    font-size: 1.3rem;
+    margin-right: 2px;
+    margin-top: 1px;
+    display: inline-block;
 }
-
-#confirmation-container {
-    padding: 1rem;
+.negative{
+    color: red;
+    font-size: 1.3rem;
+    margin-right: 2px;
+    display: inline-block;
 }
-
-#receipt-container {
-    padding: 1rem 1rem 1.9rem 1rem;
+.positive-transction-amount{
+    color: green;
+    display: inline-block;
+    text-align: start;
+    font-size: 1.3rem;
 }
-
-#confirmation-container p,
-#receipt-container p {
-    margin: 4px;
-    font-size: 1.2rem;
+.negative-transction-amount{
+    color: red;
+    display: inline-block;
+    text-align: start;
+    font-size: 1.3rem;
 }
-
-#sent-receipts {
-    color: #0084FF;
-} */
 
 /* Footer Styling */
 footer {
@@ -199,10 +145,24 @@ span {
 }
 
 /* Responsiveness */
+@media only screen and (max-width: 1024px) {
+    th{
+        padding: 14px;
+        font-size: 1rem;
+    }
+    td,.postive,.positive-transction-amount,.negative,.negative-transction-amount{
+        font-size: 1rem;
+    }
+
+}
 @media only screen and (max-width: 768px) {
     #about-cues {
         text-align: start;
     }
+    .amount-td{
+        padding: 10px;
+    }
+   
 }
 
 @media only screen and (max-width: 426px) {
